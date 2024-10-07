@@ -1,0 +1,32 @@
+npx create-expo-app@latest GMovies --template blank
+
+cd GMovies
+
+// React Navigation
+npm install @react-navigation/native
+npm install @react-navigation/native-stack
+npx expo install react-native-screens react-native-safe-area-context
+npx expo install react-native-gesture-handler
+
+// Tailwind - NativeWind
+npm install nativewind
+npm install --save-dev tailwindcss@3.3.2
+npx tailwindcss init
+
+// Carousel
+npm i react-native-reanimated-carousel
+npx expo install react-native-reanimated
+
+// React native heroicons
+npm i react-native-heroicons
+
+// Gradiente
+npm i expo-linear-gradient
+
+// Barra Progresso
+npm i react-native-progress
+
+// Fetch API - Axios
+npm i axios
+
+// Criar uma conta no site themoviedb.org
